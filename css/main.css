@@ -3,8 +3,7 @@
 *:after {
 	box-sizing: inherit;
 }
-
-a {
+a{
 	text-decoration: none;
 }
 
@@ -13,9 +12,10 @@ html {
 	font-size: 62.5%;
 }
 
-header {
+.global-header{
 	overflow: hidden;
 	height: 5rem;
+	background-color: #e1e1e1;
 }
 
 .jumbotron {
@@ -27,9 +27,8 @@ header {
 
 .jumbotron-text,
 .jumbotron-title {
-	bottom: 0;
 	color: #fff;
-	max-width: 960px;
+	max-width: 1400px;
 	margin: 0 auto;
 
 }
@@ -68,63 +67,76 @@ h3 {
 	left:  227px;
 }
 
+.nav-links-a{
+	color: #000;
+}
+
 .nav-main {
 	position: absolute;
 	z-index: 2000;
-	right: 40%;
+	left: 17%;;
 	padding-top: 10px;
-}
-
-.nav-header{
-	background-color: #e1e1e1;
 }
 
 .nav-links {
 	display: inline-block;
-	margin: 0.8rem 1rem;
-	color: #000;
+	margin: 0px 10px;
 	font-size: 13px;
 }
 
-.btn {
+.button {
 	display: inline-block;
 	font-weight: 700;
 	padding: 10px 20px;
 }
 
-.btn-buy {
+.button-buy {
 	background: #418eba;
 	color: #FFFFFF;
 	margin-top: 10px;
 }
-.btn-right{
+.button-right{
 	float: right;
-	margin-right: 13rem;
+	margin: 20px 210px 20px 0;
+	font-size: 12px;
 }
 
-.btn-radius{
+.button-radius{
 	border-radius: 15px;
-	margin-left: 18rem;
-	margin-top: 1.5rem;
+	height: 40px;	
+	font-size: 13px;
+	margin-right: 230px;
 }
 
 .content{
 	background-color: #cccccc;
-	height: 35rem;
+	padding: 40px 0 0 185px;
+	overflow: hidden;
 }
 
 .content-fist-text{
-	font-size: 15px;
-	width: 75%;
+	font-size: 16px;
 	float: left;
+	line-height: 22px;
+	width: 75%;
 }
 
 .create-content{
-	position: absolute;
-	margin-top: 18rem;
 	background-color: #fff;
+	margin: 165px 0 25px 0;
+	padding: 12px 15px 25px 125px;
+	overflow: hidden;
 	width: 75%;
-	height: 6.5rem;
+}
+
+.colum-list{
+	float: left;
+	width: 30%;
+} 
+
+.three-colums{
+	width: 80%;
+	margin: 0 auto;
 }
 
 .title-content{

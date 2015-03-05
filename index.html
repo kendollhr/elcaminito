@@ -9,18 +9,20 @@
 		<title>EL CAMINITO</title>
 	</head>
 	<body>
-		<main>
-			<header class="nav-header">
+			<header class="global-header">
 				<a href="index.html"><img class="logo" src="img/logo.png" alt="logo de El Caminito"></a>
 				<nav class="nav-main">
-					<a href="productos.html" class="nav-links">INICIO</a>
-					<a href="proyectos.html" class="nav-links">EL HOTEL</a>
-					<a href="noticias.html" class="nav-links">ACTIVIDADES</a>
-					<a href="contacto.html" class="nav-links">EVENTOS</a>
-					<a href="acerca-de.html" class="nav-links">LA ZONA</a>
-					<a href="acerca-de.html" class="nav-links">CONTACTO</a>
+					<ul>
+						<li class="nav-links"><a href="#" class="nav-links-a">INICIO</a></li>
+						<li class="nav-links"><a href="#" class="nav-links-a">EL HOTEL</a></li>
+						<li class="nav-links"><a href="#" class="nav-links-a">ACTIVIDADES</a></li>
+						<li class="nav-links"><a href="#" class="nav-links-a">EVENTOS</a></li>
+						<li class="nav-links"><a href="#" class="nav-links-a">LA ZONA</a></li>
+						<li class="nav-links"><a href="#" class="nav-links-a">CONTACTO</a></li>
+					</ul>
 				</nav>
 			</header> <!-- .navegacion-principal END -->
+		<main>	
 			<div class="jumbotron">
 			<h2 class="jumbotron-title">Lorem ipsum</h2>
 				<p class="jumbotron-text">
@@ -29,28 +31,80 @@
 				</p>
 			</div> <!-- .jumbotron END -->
 
-			<div class="content">
-				<div class="sub-content">
+			<section class="content">
 					<h3 class="title-content">Por qué escoger El Caminito?</h3>
 					<p class="content-fist-text">
 						Nunc vestibulum eros auctor purus hendrerit ullamcorper. Proin egestas at lectus non egestas. Nullam eleifend velit vel tempus posuere. Sed consectetur pellentesque urna, id consequat quam gravida id. Maecenas in felis tempor, condimentum lacus a, convallis ante. Nulla tortor nisl, faucibus sit amet justo et, suscipit finibus nulla. Duis varius purus sem, non auctor est elementum eu. Vestibulum non turpis metus. Donec porttitor est sed auctor porttitor. Sed iaculis, augue vitae lobortis gravida, mauris ipsum tempor ante, ac laoreet mauris quam a erat. Donec erat justo, tristique eget nisl faucibus, scelerisque ultricies magna. Vivamus maximus dolor a mi ullamcorper
 					</p>
-					<a class="btn btn-buy btn-right" href="#">Conozca más</a>
+					<a class="button button-buy button-right" href="#">Conozca más</a>
 					<div class="create-content">
-						<a class="btn btn-buy btn-radius" href="#">Conozca las instalaciones</a>
-						<a class="btn btn-buy btn-radius" href="#">Organice un evento</a>
-						<a class="btn btn-buy btn-radius" href="#">Actividades</a>
+						<a class="button button-buy button-radius" href="#">Conozca las instalaciones</a>
+						<a class="button button-buy button-radius" href="#">Organice un evento</a>
+						<a class="button button-buy button-radius" href="#">Actividades</a>
 					</div><!-- .create-content END -->
-				</div>	
-			</div><!-- .content END -->
-			<div class="gallery-content">
+			</section><!-- .content END -->
+			<section class="gallery-content">
+			<h3 class="title-content">Donde esta El Caminito?</h3>
 				<img class="gall-cont-img" src="img/1.jpg">
 				<img class="gall-cont-img" src="img/2.jpeg">
 				<img class="gall-cont-img" src="img/3.jpg">
 				<img class="gall-cont-img" src="img/1.jpg">
 				<img class="gall-cont-img" src="img/2.jpeg">
 				<img class="gall-cont-img" src="img/3.jpg">
-			</div><!-- .gallery-content END -->
+				<a href="">Conozca más sobre la zona</a>
+			</section><!-- .gallery-content END -->
+
+			<div class="three-colums">
+				<section class="colum-list colum-news">
+					<h2>Noticias</h2>
+					<ul>
+						<li>
+							<article>
+								<h3>Pase la navidad con nosotros</h3>
+								<p class="">
+									Nunc vestibulum eros auctor purus hendrerit ullamcorper. Proin egestas at lectus non egestas. Nullam eleifend velit vel tempus posuere. Sed consectetur pellentesque urna, id consequat quam gravida id. Maecenas in felis tempor, condimentum lacus a, convallis ante. Nulla tortor nisl, faucibus sit amet justo et, suscipit finibus nulla. Duis varius purus sem, non auctor est elementum eu.
+								</p>
+							</article>
+						</li>
+						<li>
+							<article>
+								<h3>Pase la navidad con nosotros</h3>
+								<p class="">
+									Nunc vestibulum eros auctor purus hendrerit ullamcorper. Proin egestas at lectus non egestas. Nullam eleifend velit vel tempus posuere. Sed consectetur pellentesque urna, id consequat quam gravida id. Maecenas in felis tempor, condimentum lacus a, convallis ante. Nulla tortor nisl, faucibus sit amet justo et, suscipit finibus nulla. Duis varius purus sem, non auctor est elementum eu.
+								</p>
+							</article>
+						</li>
+					</ul>
+				</section>
+				<section class="colum-list colum-event">
+					<h2>Eventos</h2>
+					<ul>
+						<li>
+							<article>
+								<h3>Pase la navidad con nosotros</h3>
+								<p class="">
+									Nunc vestibulum eros auctor purus hendrerit ullamcorper. Proin egestas at lectus non egestas. Nullam eleifend velit vel tempus posuere. Sed consectetur pellentesque urna, id consequat quam gravida id. Maecenas in felis tempor, condimentum lacus a, convallis ante. Nulla tortor nisl, faucibus sit amet justo et, suscipit finibus nulla. Duis varius purus sem, non auctor est elementum eu.
+								</p>
+							</article>
+						</li>
+						<li>
+							<article>
+								<h3>Pase la navidad con nosotros</h3>
+								<p class="">
+									Nunc vestibulum eros auctor purus hendrerit ullamcorper. Proin egestas at lectus non egestas. Nullam eleifend velit vel tempus posuere. Sed consectetur pellentesque urna, id consequat quam gravida id. Maecenas in felis tempor, condimentum lacus a, convallis ante. Nulla tortor nisl, faucibus sit amet justo et, suscipit finibus nulla. Duis varius purus sem, non auctor est elementum eu.
+								</p>
+							</article>
+						</li>
+					</ul>
+				</section>
+				<section class="colum-list colum-reserv">
+					<h2>Reserve ahora</h2>
+					<p class="">
+						Nunc vestibulum eros auctor purus hendrerit ullamcorper. Proin egestas at lectus non egestas. Nullam eleifend velit vel tempus posuere. Sed consectetur pellentesque urna, id consequat quam gravida id. Maecenas in felis tempor, condimentum lacus a, convallis ante. Nulla tortor nisl, faucibus sit amet justo et, suscipit finibus nulla. Duis varius purus sem, non auctor est elementum eu.
+						Nunc vestibulum eros auctor purus hendrerit ullamcorper. Proin egestas at lectus non egestas. Nullam eleifend velit vel tempus posuere. Sed consectetur pellentesque urna, id consequat quam gravida id. Maecenas in felis tempor, condimentum lacus a, convallis ante. Nulla tortor nisl, faucibus sit amet justo et, suscipit finibus nulla. Duis varius purus sem, non auctor est elementum eu.<br>
+					</p>
+				</section>
+			</div>
 		</main>
 	</body>
 </html>
